@@ -86,8 +86,16 @@ Follow these steps to use the script:
 - The script assumes all input files are in the specified format. If no matching files are found, it will exit with a message.
 - For troubleshooting, review the `failed_compounds_list.txt` file and rerun the script for only the problematic compounds.
 
-## Acknowledgment
+## Citation
 
-If you are using this script for your studies, kindly acknowledge us in your publications or research. We appreciate your support!
+If you are using this script for your studies, kindly acknowledge the use of Open Babel as per its citation guidelines and mention my GitHub repository:
 
+O'Boyle NM, Banck M, James CA, Morley C, Vandermeersch T, Hutchison GR. Open Babel: An open chemical toolbox. Journal of Cheminformatics. 2011;3:33. https://doi.org/10.1186/1758-2946-3-33
+
+For the latest version of this script and updates, visit my GitHub repository:
+https://github.com/Gopinath-Murugan/Openbabel-Automation
+
+Mentioning this repository in your publications or research would be greatly appreciated.
+
+We appreciate your support!
 

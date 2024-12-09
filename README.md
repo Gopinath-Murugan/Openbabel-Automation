@@ -1,4 +1,4 @@
-# Compound Conversion Script
+# Open babel Compound Conversion Script
 
 This script facilitates the conversion of chemical compounds from one file format to another using **Open Babel**. It also includes optional energy minimization for files converted to `.pdb` format. Compounds that fail to convert are logged into a file named `failed_compounds_list.txt`.
 

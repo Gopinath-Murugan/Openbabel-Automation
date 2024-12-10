@@ -1,5 +1,18 @@
 #!/bin/bash
 
+# Display a header message about the script
+cat << "EOF"
+            ########################################################################## 
+            ##                                                                      ##
+            ##                   Automated script for Openbabel                     ##
+            ##                   Written by Gopinath Murugan                        ##
+            ##       CAS in Crystallography and Biophysics, University of Madras    ##
+            ##                   Email: murugangopinath12@gmail.com                 ##
+            ##        https://github.com/Gopinath-Murugan/Openbabel-Automation      ## 
+            ##                                                                      ##
+            ########################################################################## 
+EOF
+
 # Prompt the user for the input file type
 read -p "Enter the input file type (e.g., sdf): " input_type
 
@@ -37,4 +50,5 @@ for f in ./*.$input_type; do
 done
 
 echo "Conversion completed. Check $error_log for any errors."
+
 

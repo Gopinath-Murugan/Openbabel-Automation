@@ -32,7 +32,7 @@ for f in ./*.$input_type; do
         # Check if the desired output format is pdb
         if [[ $output_format == "pdb" ]]; then
             echo "Converting to pdb with energy minimization..."
-            if ! obabel "$f" -O "$lig.$output_format" --h --minimize --n 50000 --sd --ff UFF; then
+            if ! obabel "$f" -O "$lig.$output_format"  --gen3D --h --minimize --n 50000 --sd --ff UFF; then
                 echo "Error processing $lig.$input_type. Logging to $error_log."
                 echo "$lig.$input_type" >> "$error_log"
             fi
